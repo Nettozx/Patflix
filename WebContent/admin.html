@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en-gb" dir="ltr">
+<head>
+<title></title>
+<link rel="stylesheet" href="css/uikit.gradient.css" />
+<script
+	src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="js/uikit.min.js"></script>
+</head>
+
+<body>
+	<div class="uk-grid">
+		<div class="uk-width-1-1">
+			<nav class="uk-navbar">
+				<a class="uk-navbar-brand uk-hidden-small" href="home.html">Patflix</a>
+				<ul class="uk-navbar-nav uk-hidden-small">
+					<!--begin adv search-->
+					<li class="uk-navbar-nav" data-uk-offcanvas="{target:'#adv-srch'}"><a
+						href="#">Adv. Search</a></li>
+					<div id="adv-srch" class="uk-offcanvas">
+						<div class="uk-offcanvas-bar">
+							<ul class="uk-nav uk-nav-offcanvas uk-nav-parent-icon"
+								data-uk-nav>
+								<li class="uk-parent"><a href="#">Stars With</a>
+									<ul class="uk-subnav uk-nav-dropdown">
+										<li><a href="#">0-9</a>
+											<ul class="uk-nav-sub">
+												<li><a
+													href="SearchFirstLetter?by=title&amp;movie=0&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">0</a></li>
+												<li><a
+													href="SearchFirstLetter?by=title&amp;movie=1&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">1</a></li>
+												<li><a
+													href="SearchFirstLetter?by=title&amp;movie=2&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">2</a></li>
+												<li><a
+													href="SearchFirstLetter?by=title&amp;movie=3&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">3</a></li>
+												<li><a
+													href="SearchFirstLetter?by=title&amp;movie=4&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">4</a></li>
+												<li><a
+													href="SearchFirstLetter?by=title&amp;movie=5&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">5</a></li>
+												<li><a
+													href="SearchFirstLetter?by=title&amp;movie=6&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">6</a></li>
+												<li><a
+													href="SearchFirstLetter?by=title&amp;movie=7&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">7</a></li>
+												<li><a
+													href="SearchFirstLetter?by=title&amp;movie=8&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">8</a></li>
+												<li><a
+													href="SearchFirstLetter?by=title&amp;movie=9&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">9</a></li>
+											</ul></li>
+										<li><a href="#">A-J</a>
+											<ul class="uk-nav-sub">
+												<li><a
+													href="SearchFirstLetter?by=title&amp;movie=a&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">A</a></li>
+												<li><a
+													href="SearchFirstLetter?by=title&amp;movie=b&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">B</a></li>
+												<li><a
+													href="SearchFirstLetter?by=title&amp;movie=c&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">C</a></li>
+												<li><a
+													href="SearchFirstLetter?by=title&amp;movie=d&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">D</a></li>
+												<li><a
+													href="SearchFirstLetter?by=title&amp;movie=e&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">E</a></li>
+												<li><a
+													href="SearchFirstLetter?by=title&amp;movie=f&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">F</a></li>
+												<li><a
+													href="SearchFirstLetter?by=title&amp;movie=g&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">G</a></li>
+												<li><a
+													href="SearchFirstLetter?by=title&amp;movie=h&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">H</a></li>
+												<li><a
+													href="SearchFirstLetter?by=title&amp;movie=i&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">I</a></li>
+												<li><a
+													href="SearchFirstLetter?by=title&amp;movie=j&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">J</a></li>
+											</ul></li>
+										<li><a href="#">K-T</a>
+											<ul class="uk-nav-sub">
+												<li><a
+													href="SearchFirstLetter?by=title&amp;movie=k&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">K</a></li>
+												<li><a
+													href="SearchFirstLetter?by=title&amp;movie=l&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">L</a></li>
+												<li><a
+													href="SearchFirstLetter?by=title&amp;movie=m&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">M</a></li>
+												<li><a
+													href="SearchFirstLetter?by=title&amp;movie=n&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">N</a></li>
+												<li><a
+													href="SearchFirstLetter?by=title&amp;movie=o&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">O</a></li>
+												<li><a
+													href="SearchFirstLetter?by=title&amp;movie=p&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">P</a></li>
+												<li><a
+													href="SearchFirstLetter?by=title&amp;movie=q&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">Q</a></li>
+												<li><a
+													href="SearchFirstLetter?by=title&amp;movie=r&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">R</a></li>
+												<li><a
+													href="SearchFirstLetter?by=title&amp;movie=s&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">S</a></li>
+												<li><a
+													href="SearchFirstLetter?by=title&amp;movie=t&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">T</a></li>
+											</ul></li>
+										<li><a href="#">U-Z</a>
+											<ul class="uk-nav-sub">
+												<li><a
+													href="SearchFirstLetter?by=title&amp;movie=u&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">U</a></li>
+												<li><a
+													href="SearchFirstLetter?by=title&amp;movie=v&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">V</a></li>
+												<li><a
+													href="SearchFirstLetter?by=title&amp;movie=w&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">W</a></li>
+												<li><a
+													href="SearchFirstLetter?by=title&amp;movie=x&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">X</a></li>
+												<li><a
+													href="SearchFirstLetter?by=title&amp;movie=y&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">Y</a></li>
+												<li><a
+													href="SearchFirstLetter?by=title&amp;movie=z&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">Z</a></li>
+												<li><a href="#"><BR> </a></li>
+												<li><a href="#"><BR> </a></li>
+												<li><a href="#"><BR> </a></li>
+												<li><a href="#"><BR> </a></li>
+											</ul></li>
+									</ul></li>
+								<li class="uk-parent"><a href="#">Genre is</a>
+									<ul class="uk-nav-sub">
+										<li><a
+											href="SearchGenre?by=genre&amp;genre=Action&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">Action</a></li>
+										<li><a
+											href="SearchGenre?by=genre&amp;genre=Adventure&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">Adventure</a></li>
+										<li><a
+											href="SearchGenre?by=genre&amp;genre=Animation&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">Animation</a></li>
+										<li><a
+											href="SearchGenre?by=genre&amp;genre=Comedy&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">Comedy</a></li>
+										<li><a
+											href="SearchGenre?by=genre&amp;genre=Crime&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">Crime</a></li>
+										<li><a
+											href="SearchGenre?by=genre&amp;genre=Documentary&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">Documentary</a></li>
+										<li><a
+											href="SearchGenre?by=genre&amp;genre=Drama&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">Drama</a></li>
+										<li><a
+											href="SearchGenre?by=genre&amp;genre=Family&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">Family</a></li>
+										<li><a
+											href="SearchGenre?by=genre&amp;genre=Fantasy&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">Fantasy</a></li>
+										<li><a
+											href="SearchGenre?by=genre&amp;genre=Film-Noir&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">Film-Noir</a></li>
+										<li><a
+											href="SearchGenre?by=genre&amp;genre=Horror&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">Horror</a></li>
+										<li><a
+											href="SearchGenre?by=genre&amp;genre=Music&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">Music</a></li>
+										<li><a
+											href="SearchGenre?by=genre&amp;genre=Musical&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">Musical</a></li>
+										<li><a
+											href="SearchGenre?by=genre&amp;genre=Mystery&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">Mystery</a></li>
+										<li><a
+											href="SearchGenre?by=genre&amp;genre=Romance&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">Romance</a></li>
+										<li><a
+											href="SearchGenre?by=genre&amp;genre=Sci-Fi&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">Sci-Fi</a></li>
+										<li><a
+											href="SearchGenre?by=genre&amp;genre=Thriller&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">Thriller</a></li>
+										<li><a
+											href="SearchGenre?by=genre&amp;genre=War&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">War</a></li>
+										<li><a
+											href="SearchGenre?by=genre&amp;genre=Western&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">Western</a></li>
+										<li><a
+											href="SearchGenre?by=genre&amp;genre=SCI/FI&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">SCI/FI</a></li>
+										<li><a
+											href="SearchGenre?by=genre&amp;genre=Crime/Gangster&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">Crime/Gangster</a></li>
+										<li><a
+											href="SearchGenre?by=genre&amp;genre=Epics/Historical&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">Epics/Historical</a></li>
+										<li><a
+											href="SearchGenre?by=genre&amp;genre=Musicals&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">Musicals</a></li>
+										<li><a
+											href="SearchGenre?by=genre&amp;genre=Science Fiction&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">Science
+												Fiction</a></li>
+										<li><a
+											href="SearchGenre?by=genre&amp;genre=Westerns&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">Westerns</a></li>
+										<li><a
+											href="SearchGenre?by=genre&amp;genre=Science Fiction/Fantasy&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">Science
+												Fiction/Fantasy</a></li>
+										<li><a
+											href="SearchGenre?by=genre&amp;genre=Musical/Performing Arts&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">Musical/Performing
+												Arts</a></li>
+										<li><a
+											href="SearchGenre?by=genre&amp;genre=spy&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">spy</a></li>
+										<li><a
+											href="SearchGenre?by=genre&amp;genre=James Bond&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">James
+												Bond</a></li>
+										<li><a
+											href="SearchGenre?by=genre&amp;genre=Short&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">Short</a></li>
+										<li><a
+											href="SearchGenre?by=genre&amp;genre=Epics/Historial&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">Epics/Historial</a></li>
+										<li><a
+											href="SearchGenre?by=genre&amp;genre=Coming-of-Age-Drama&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">Coming-of-Age-Drama</a></li>
+										<li><a
+											href="SearchGenre?by=genre&amp;genre=Detective&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">Detective</a></li>
+										<li><a
+											href="SearchGenre?by=genre&amp;genre=Gangster&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">Gangster</a></li>
+										<li><a
+											href="SearchGenre?by=genre&amp;genre=Love&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">Love</a></li>
+										<li><a
+											href="SearchGenre?by=genre&amp;genre=epics&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">epics</a></li>
+										<li><a
+											href="SearchGenre?by=genre&amp;genre=Foreign&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">Foreign</a></li>
+										<li><a
+											href="SearchGenre?by=genre&amp;genre=Romance&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">Romance</a></li>
+										<li><a
+											href="SearchGenre?by=genre&amp;genre=Roman&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">Roman</a></li>
+										<li><a
+											href="SearchGenre?by=genre&amp;genre=Tragedy&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">Tragedy</a></li>
+										<li><a
+											href="SearchGenre?by=genre&amp;genre=SciFi&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">SciFi</a></li>
+										<li><a
+											href="SearchGenre?by=genre&amp;genre=classic&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">classic</a></li>
+										<li><a
+											href="SearchGenre?by=genre&amp;genre=adventure&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">adventure</a></li>
+										<li><a
+											href="SearchGenre?by=genre&amp;genre=kid&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">kid</a></li>
+										<li><a
+											href="SearchGenre?by=genre&amp;genre=musial&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">musial</a></li>
+										<li><a
+											href="SearchGenre?by=genre&amp;genre=arts&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">arts</a></li>
+										<li><a
+											href="SearchGenre?by=genre&amp;genre=Suspense&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">Suspense</a></li>
+										<li><a
+											href="SearchGenre?by=genre&amp;genre=Indie&amp;order=title&amp;type=asc&amp;page=0&amp;rpp=5">Indie</a></li>
+									</ul></li>
+							</ul>
+						</div>
+					</div>
+					<!--end adv search-->
+					<!--begin admin panel-->
+					<div id="admin-login" class="uk-modal">
+						<div class="uk-modal-dialog">
+							<!--login goes here-->
+							<a href="" class="uk-modal-close uk-close"></a>
+							<h3>Admin Login</h3>
+							<form class="uk-form" data-uk-margin action="AdminLoginForm"
+								method="POST">
+								<div class="uk-form-icon">
+									<i class="uk-icon-user"></i> <input type="text" name="email">
+								</div>
+								<BR>
+								<div class="uk-form-icon">
+									<i class="uk-icon-key"></i> <input type="password"
+										name="password">
+								</div>
+								<BR> <input class="uk-button" type="submit" value="Login">
+							</form>
+							<!--end login-->
+						</div>
+					</div>
+					<!--data-uk-offcanvas="{target:'#admin-panel'}"-->
+					<div id="admin-panel" class="uk-offcanvas">
+						<div class="uk-offcanvas-bar">
+							<ul class="uk-nav uk-nav-offcanvas uk-nav-parent-icon"
+								data-uk-nav>
+								<li class="uk-nav-header">Admin Panel</li>
+								<li class="uk-parent"><a href="admin.html"><i
+										class="uk-icon-home"></i> Dashboard</a></li>
+								<li class="uk-nav-header">DB Management</li>
+								<li class="uk-parent"><a href="#"><i
+										class="uk-icon-video-camera"></i> Movies</a>
+									<ul class="uk-nav-sub">
+										<li><a href="addMovie?"><i
+												class="uk-icon-plus-circle"></i> Add Movie</a></li>
+										<li><a href=""><i class="uk-icon-cog"></i> Modify
+												Movie</a></li>
+										<li><a href=""><i class="uk-icon-minus-circle"></i>
+												Delete Movie</a></li>
+									</ul></li>
+
+								<li class="uk-parent"><a href="#"><i
+										class="uk-icon-star"></i> Stars</a>
+									<ul class="uk-nav-sub">
+										<li><a href="addStar?"><i class="uk-icon-plus-circle"></i>
+												Add Star</a></li>
+										<li><a href=""><i class="uk-icon-cog"></i> Modify
+												Star</a></li>
+										<li><a href=""><i class="uk-icon-minus-circle"></i>
+												Delete Star</a></li>
+									</ul></li>
+
+								<li class="uk-parent"><a href="#"><i
+										class="uk-icon-tag"></i> Genres</a>
+									<ul class="uk-nav-sub">
+										<li><a href="addGenre?"><i
+												class="uk-icon-plus-circle"></i> Add Genre</a></li>
+										<li><a href=""><i class="uk-icon-cog"></i> Modify
+												Genre</a></li>
+										<li><a href=""><i class="uk-icon-minus-circle"></i>
+												Delete Genre</a></li>
+									</ul></li>
+								<li class="uk-nav-header">User Management</li>
+
+								<li><a href="manageUsers?"><i class="uk-icon-users"></i>
+										Users</a></li>
+								<li><a href=""><i class="uk-icon-gears"></i>
+										Permissions</a></li>
+
+								<li class="uk-nav-header">Reports</li>
+								<li class="uk-parent"><a href="#"><i
+												class="uk-icon-bug"></i> DB Error Reports</a>
+									<ul class="uk-nav-sub">
+										<li><a href="dbReports?report=moviesWithoutStar">Movies w/o Stars</a></li>
+										<li><a href="dbReports?report=starsWithoutMovie">Stars w/o Movies</a></li>
+										<li><a href="dbReports?report=moviesWithoutGenre">Movies w/o Genres</a></li>
+										<li><a href="dbReports?report=genresWithoutMovie">Genres w/o Movies</a></li>
+										<li><a href="dbReports?report=starsWithoutName">Stars w/o Name</a></li>
+										<li><a href="dbReports?report=expiredCreditCards">Expired Credit Cards</a></li>
+										<li><a href="dbReports?report=dupeMovies">Duplicate Movies</a></li>
+										<li><a href="dbReports?report=dupeStars">Duplicate Stars</a></li>
+										<li><a href="dbReports?report=dupeGenres">Duplicate Genres</a></li>
+										<li><a href="dbReports?report=dateChecker">Date Errors</a></li>
+										<li><a href="dbReports?report=emailChecker">Email Errors</a></li>
+									</ul>
+								</li>
+								<li><a href=""><i class="uk-icon-warning"></i> Crash
+										Reports</a></li>
+							</ul>
+						</div>
+					</div>
+					<!--end admin panel-->
+					<!--begin about button-->
+					<li class="uk-parent" data-uk-dropdown><a href="#">About</a>
+						<div class="uk-dropdown uk-dropdown-navbar">
+							<div class="uk-panel">
+								CS 122B Project <br> Usman Majid <br> Patrick Nguyen
+							</div>
+						</div></li>
+					<!--end about button-->
+				</ul>
+				<div class="uk-navbar-content uk-navbar-flip  uk-hidden-small">
+					<div class="uk-button-group">
+						<a class="uk-button uk-button-danger" href="#">View Cart</a>
+						<form class="uk-form" action="Checkout" method="GET">
+							<button type="submit" class="uk-button uk-button-danger">Checkout</button>
+						</form>
+					</div>
+					<!-- settings button -->
+					<div class="uk-button-group">
+						<li class="uk-parent" data-uk-dropdown><i
+							class="uk-icon-wrench uk-icon-medium"></i>
+							<div class="uk-dropdown uk-dropdown-navbar">
+								<ul class="uk-nav uk-nav-navbar">
+									<li><a class="" href="#admin-login" data-uk-modal>Admin
+											Panel</a></li>
+									<li class="uk-nav-divider"></li>
+									<li><form class="uk-form" action="Logout" method="GET">
+											<button type="submit" class="uk-button uk-button-danger">Logout</button>
+										</form></li>
+								</ul>
+							</div></li>
+					</div>
+					<!-- end settings button -->
+				</div>
+				<!--search box-->
+				<div class="uk-navbar-flip">
+					<div class="uk-navbar-content uk-hidden-small">
+						<form action="Search" method="GET"
+							class="uk-search uk-form uk-margin-remove uk-display-inline-block"
+							data-uk-search="{flipDropdown:true}">
+							<input class="uk-search-field uk-text-center" type="text"
+								name="movie" placeholder="search..."> <INPUT
+								TYPE="HIDDEN" NAME="order" VALUE="title"> <INPUT
+								TYPE="HIDDEN" NAME="type" VALUE="asc"> <INPUT
+								TYPE="HIDDEN" NAME="page" VALUE="0"> <INPUT
+								TYPE="HIDDEN" NAME="rpp" VALUE="5">
+							<button class="uk-search-close" type="reset"></button>
+						</form>
+					</div>
+				</div>
+				<!--search box end-->
+			</nav>
+		</div>
+	</div>
+	<!--end top nav, begin content-->
+	<!-- begin side nav -->
+	<div class="uk-container uk-container-center">
+
+		<h1>Admin Dashboard</h1>
+
+		<div class="uk-grid" data-uk-grid-margin>
+
+			<div class="uk-width-medium-1-1">
+				<button class="uk-button"
+					data-uk-offcanvas="{target:'#admin-panel'}">Open Admin
+					Panel</button>
+			</div>
+
+			<div class="uk-width-medium-1-4">
+
+				<h3>Content here</h3>
+
+
+			</div>
+			<div class="uk-width-medium-1-4">
+
+				<h3>More content here</h3>
+
+			</div>
+		</div>
+
+		<div class="uk-grid" data-uk-grid-margin>
+
+			<div class="uk-width-medium-1-4">
+
+				<h3>New line</h3>
+			</div>
+
+			<div class="uk-width-medium-1-4">
+
+				<h3>Moar stuff</h3>
+			</div>
+
+			<div class="uk-width-medium-1-2">
+
+				<h3>Big box</h3>
+			</div>
+		</div>
+	</div>
+	<!-- end side nav -->
+
+</body>
+</html>
